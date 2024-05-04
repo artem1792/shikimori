@@ -1,0 +1,31 @@
+.p-profiles-show .l-page {
+  max-width: 1000px;
+}
+
+@media screen and (min-width: 1200px) {
+  /* Внутренние отступы страницы */
+  .p-profiles-show .l-page {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  /* После 1200px показывается другой график */
+  .p-profiles-show .profile-content .graph.x26 {
+    display: block;
+  }
+  .p-profiles-show .profile-content .graph.x34 {
+    display: none;
+  }
+  /* Ширина основных столбцов */
+  .p-profiles-show.x1200 .profile-content .c-left,
+  .p-profiles-show.x1200 .profile-content .c-right {
+    width: 48%;
+  }
+  /* Ширина столбцов друзей/клубов */
+  .p-profiles-show.x1200 .profile-content .c-right .cc-2a>.c-column {
+    width: 48%;
+    margin-right: 4%;
+  }
+  .p-profiles-show.x1200 .profile-content .c-right .cc-2a>.c-column:last-child {
+    margin-right: 0;
+  }
+}
