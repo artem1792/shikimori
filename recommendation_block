@@ -1,3 +1,0 @@
-  .b-collection-filters > .block:nth-child(3) {
-  display: none;
-}
