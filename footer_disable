@@ -1,5 +1,0 @@
-@media (min-width: 1024px) {
-#profiles_show .l-footer {
-    display: none;
-}
-}
