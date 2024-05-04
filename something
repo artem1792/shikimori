@@ -33,3 +33,15 @@ span[original-title="14 июня 2022 г."] {
 	color: #112233;
 	content: '/';
 }
+
+/* Отключение подвала */
+@media (min-width: 1024px) {
+#profiles_show .l-footer {
+    display: none;
+}
+}
+
+/* Убирает блок "рекомендации" в списке аниме */
+  .b-collection-filters > .block:nth-child(3) {
+  display: none;
+}
